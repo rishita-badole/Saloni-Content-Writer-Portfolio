@@ -1,0 +1,43 @@
+.home {
+  overflow-x: hidden;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 23px;
+  margin-left: 93px;
+  margin-right: 28px;
+  flex-wrap: wrap;
+
+  @media (--mediaMobile) {
+    flex-direction: column;
+    align-content: center;
+    margin: 0px;
+  }
+}
+
+.title {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2%;
+}
+
+.anchorTag {
+  font-size: 20px;
+  padding-bottom: 2px;
+  height: 19px;
+  
+  @media (--mediaMobile) {
+    padding-bottom: 0px;
+  }
+
+}
+
+.linkTag {
+  margin-top: 5px;
+
+  @media (--mediaMobile) {
+    margin: 0px;
+  }
+}
