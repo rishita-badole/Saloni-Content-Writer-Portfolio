@@ -7,12 +7,11 @@ export const Resume = () => {
     <div className={styles.resume}>
       <Post
         title="Resume"
-        href="Content writer - Rishita Badole (2).pdf"
+        href="https://drive.google.com/file/d/1UjPsgpeNk8JrHg8fIB650T9RqKlFalH7/view?usp=sharing"
       >
-          <p>Test</p>
         <PDFViewer
           resume={true}
-          pdfLink="Content writer - Rishita Badole (2).pdf"
+          pdfLink="https://drive.google.com/file/d/1UjPsgpeNk8JrHg8fIB650T9RqKlFalH7/preview.pdf"
         />
       </Post>
     </div>
