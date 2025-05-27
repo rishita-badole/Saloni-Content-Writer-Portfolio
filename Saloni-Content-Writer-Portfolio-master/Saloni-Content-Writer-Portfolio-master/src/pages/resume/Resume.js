@@ -11,7 +11,7 @@ export const Resume = () => {
       >
         <PDFViewer
           resume={true}
-          pdfLink="https://drive.google.com/file/d/1UjPsgpeNk8JrHg8fIB650T9RqKlFalH7/preview.pdf"
+          pdfLink="/rishita-badole-resume.pdf"
         />
       </Post>
     </div>
